@@ -1,9 +1,9 @@
 import tkinter as tk
-from tkinter import ttk
 from PIL import Image, ImageTk
 import os
 
 root = tk.Tk()
+root.attributes('-fullscreen', True)
 
 canvas = tk.Canvas(root, bg="white")
 
