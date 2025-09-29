@@ -58,7 +58,7 @@ def open_home():
 
 def open_coast():
     create_background("images/Coast_Home.png", 1920, 1080)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Home_Blue.png", 1680, 80, 289, 101, command=open_home)
     create_button("images/Coast_Neskowin_Button.png", 596, 177, 1688, 286, command=open_coast_1)
     create_button("images/Coast_Yaquina_Button.png", 597, 396, 1688, 286, command=open_coast_2)
     create_button("images/Coast_Dunes_Button.png", 596, 617, 1688, 286, command=open_coast_3)
@@ -66,27 +66,27 @@ def open_coast():
 
 def open_coast_1():
     create_background("images/Coast_1.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_coast)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Blue.png", 1466, 80, 289, 101, command=open_coast)
+    create_button("images/Home_Blue.png", 1680, 80, 289, 101, command=open_home)
 
 def open_coast_2():
     create_background("images/Coast_2.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_coast)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Blue.png", 1466, 80, 289, 101, command=open_coast)
+    create_button("images/Home_Blue.png", 1680, 80, 289, 101, command=open_home)
 
 def open_coast_3():
     create_background("images/Coast_3.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_coast)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Blue.png", 1466, 80, 289, 101, command=open_coast)
+    create_button("images/Home_Blue.png", 1680, 80, 289, 101, command=open_home)
 
 def open_coast_4():
     create_background("images/Coast_4.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_coast)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Blue.png", 1466, 80, 289, 101, command=open_coast)
+    create_button("images/Home_Blue.png", 1680, 80, 289, 101, command=open_home)
 
 def open_valley():
     create_background("images/Valley_Home.png", 1920, 1080)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Home_Green.png", 1680, 80, 289, 101, command=open_home)
     create_button("images/Valley_Silver_Falls_Button.png", 596, 177, 1688, 286, command=open_valley_1)
     create_button("images/Valley_McKenzie_Button.png", 597, 396, 1688, 286, command=open_valley_2)
     create_button("images/Valley_TableRocks_Button.png", 596, 617, 1688, 286, command=open_valley_3)
@@ -94,27 +94,27 @@ def open_valley():
 
 def open_valley_1():
     create_background("images/Valley_1.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_valley)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Green.png", 1466, 80, 289, 101, command=open_valley)
+    create_button("images/Home_Green.png", 1680, 80, 289, 101, command=open_home)
 
 def open_valley_2():
     create_background("images/Valley_2.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_valley)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Green.png", 1466, 80, 289, 101, command=open_valley)
+    create_button("images/Home_Green.png", 1680, 80, 289, 101, command=open_home)
 
 def open_valley_3():
     create_background("images/Valley_3.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_valley)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)  
+    create_button("images/Back_Green.png", 1466, 80, 289, 101, command=open_valley)
+    create_button("images/Home_Green.png", 1680, 80, 289, 101, command=open_home)  
 
 def open_valley_4():
     create_background("images/Valley_4.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_valley)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Green.png", 1466, 80, 289, 101, command=open_valley)
+    create_button("images/Home_Green.png", 1680, 80, 289, 101, command=open_home)
 
 def open_plateau():
     create_background("images/Plateau_Home.png", 1920, 1080)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Home_Red.png", 1680, 80, 289, 101, command=open_home)
     create_button("images/Plateau_Fruit_Loop_Button.png", 36, 555, 626, 568, command=open_plateau_1)
     create_button("images/Plateau_John_Day_Button.png", 501, 555, 626, 568, command=open_plateau_2)
     create_button("images/Plateau_Eagle_Cap_Button.png", 967, 555, 626, 568, command=open_plateau_3)
@@ -122,27 +122,27 @@ def open_plateau():
 
 def open_plateau_1():
     create_background("images/Plateau_1.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_plateau)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Red.png", 1466, 80, 289, 101, command=open_plateau)
+    create_button("images/Home_Red.png", 1680, 80, 289, 101, command=open_home)
 
 def open_plateau_2():
     create_background("images/Plateau_2.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_plateau)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Red.png", 1466, 80, 289, 101, command=open_plateau)
+    create_button("images/Home_Red.png", 1680, 80, 289, 101, command=open_home)
 
 def open_plateau_3():
     create_background("images/Plateau_3.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_plateau)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Red.png", 1466, 80, 289, 101, command=open_plateau)
+    create_button("images/Home_Red.png", 1680, 80, 289, 101, command=open_home)
 
 def open_plateau_4():
     create_background("images/Plateau_4.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_plateau)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Red.png", 1466, 80, 289, 101, command=open_plateau)
+    create_button("images/Home_Red.png", 1680, 80, 289, 101, command=open_home)
 
 def open_basin():
     create_background("images/Basin_Home.png", 1920, 1080)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Home_Brown.png", 1680, 80, 289, 101, command=open_home)
     create_button("images/Basin_Crater_Lake_Button.png", 36, 555, 626, 568, command=open_basin_1)
     create_button("images/Basin_PMO_Button.png", 501, 555, 626, 568, command=open_basin_2)
     create_button("images/Basin_Malheur_Button.png", 967, 555, 626, 568, command=open_basin_3)
@@ -150,23 +150,23 @@ def open_basin():
 
 def open_basin_1():
     create_background("images/Basin_1.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_basin)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Brown.png", 1466, 80, 289, 101, command=open_basin)
+    create_button("images/Home_Brown.png", 1680, 80, 289, 101, command=open_home)
 
 def open_basin_2():
     create_background("images/Basin_2.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_basin)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Brown.png", 1466, 80, 289, 101, command=open_basin)
+    create_button("images/Home_Brown.png", 1680, 80, 289, 101, command=open_home)
 
 def open_basin_3():
     create_background("images/Basin_3.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_basin)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Brown.png", 1466, 80, 289, 101, command=open_basin)
+    create_button("images/Home_Brown.png", 1680, 80, 289, 101, command=open_home)
 
 def open_basin_4():
     create_background("images/Basin_4.png", 1920, 1080)
-    create_button("images/Back_Button.png", 1466, 79, 283, 101, command=open_basin)
-    create_button("images/Home_Button.png", 1681, 79, 283, 101, command=open_home)
+    create_button("images/Back_Brown.png", 1466, 80, 289, 101, command=open_basin)
+    create_button("images/Home_Brown.png", 1680, 80, 289, 101, command=open_home)
 
 open_home()
 
