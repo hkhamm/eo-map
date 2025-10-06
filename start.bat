@@ -1,0 +1,1 @@
+python /Users/MNCH/Desktop/eo-map/main.py

@@ -1,5 +1,8 @@
 import tkinter as tk
 from PIL import Image, ImageTk
+import os
+
+path = os.path.dirname(__file__)
 
 root = tk.Tk()
 root.attributes('-fullscreen', True)
@@ -24,7 +27,8 @@ def scale_width_height(x, y, orig_width=2667, orig_height=1500, target_width=192
     return int(x * scale_x), int(y * scale_y)
 
 def create_background(filename, width, height):
-    image = Image.open(filename)
+    full_path = os.path.join(path, filename)
+    image = Image.open(full_path)
     image = image.resize((width, height))
     image = ImageTk.PhotoImage(image)
     canvas.delete("all")  # Clear previous items
@@ -32,7 +36,8 @@ def create_background(filename, width, height):
     canvas.create_image(0, 0, anchor="nw", image=image)
 
 def create_button(filename, x, y, width, height, command=None):
-    image = Image.open(filename)
+    full_path = os.path.join(path, filename)
+    image = Image.open(full_path)
     scaled_width, scaled_height = scale_width_height(width, height)
     image = image.resize((scaled_width, scaled_height))
     image = ImageTk.PhotoImage(image)
