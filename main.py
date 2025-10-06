@@ -114,7 +114,7 @@ def open_valley_4():
 
 def open_plateau():
     create_background("images/Plateau_Home.png", 1920, 1080)
-    create_button("images/Home_Red.png", 1680, 80, 289, 101, command=open_home)
+    create_button("images/Home_Plateau_Button.png", 1680, 80, 289, 101, command=open_home)
     create_button("images/Plateau_Fruit_Loop_Button.png", 36, 555, 626, 568, command=open_plateau_1)
     create_button("images/Plateau_John_Day_Button.png", 501, 555, 626, 568, command=open_plateau_2)
     create_button("images/Plateau_Eagle_Cap_Button.png", 967, 555, 626, 568, command=open_plateau_3)
@@ -142,7 +142,7 @@ def open_plateau_4():
 
 def open_basin():
     create_background("images/Basin_Home.png", 1920, 1080)
-    create_button("images/Home_Brown.png", 1680, 80, 289, 101, command=open_home)
+    create_button("images/Home_Basin_Button.png", 1680, 80, 289, 101, command=open_home)
     create_button("images/Basin_Crater_Lake_Button.png", 36, 555, 626, 568, command=open_basin_1)
     create_button("images/Basin_PMO_Button.png", 501, 555, 626, 568, command=open_basin_2)
     create_button("images/Basin_Malheur_Button.png", 967, 555, 626, 568, command=open_basin_3)
